@@ -1,5 +1,16 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  return word.toLowerCase() == word.toLowerCase().split("").reverse().join("")
+  // let arr = word.split("")
+  // let reversedArr = arr.reverse()
+  // let joinedString = reversedArr.join("")
+
+  // if (word == joinedString) {
+  //   return true;
+  // } else {
+  //   return false;
+  // }
+
 }
 
 /* 
